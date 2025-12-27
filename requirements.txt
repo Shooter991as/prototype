@@ -1,0 +1,15 @@
+# Advanced Security Scanner Requirements
+
+# Core dependencies (Python 3.8+)
+# Note: nmap must be installed separately on the system
+
+# Optional but recommended for enhanced functionality
+# These are standard library modules in Python 3.8+, so no external dependencies needed!
+
+# For development (optional)
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0
+# black>=22.0.0
+# flake8>=5.0.0
+# mypy>=0.991
+

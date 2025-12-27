@@ -1,0 +1,20 @@
+service,cve_id,description,cvss_score
+apache,CVE-2021-41773,Path Traversal and Remote Code Execution in Apache HTTP Server 2.4.49,9.8
+nginx,CVE-2021-23017,Use-after-free in DNS resolver affecting nginx 0.6.18-1.20.0,7.5
+openssh,CVE-2021-41617,Authentication bypass in OpenSSH,7.5
+openssl,CVE-2021-3711,SM2 Decryption Buffer Overflow in OpenSSL,7.5
+openssl,CVE-2021-3449,Null pointer dereference in TLSv1.3 server,5.9
+mysql,CVE-2021-3713,Server: Replication unspecified vulnerability,6.5
+mysql,CVE-2021-21683,Multiple unspecified vulnerabilities in MySQL Server,8.5
+postgresql,CVE-2021-3677,Memory corruption in PostgreSQL,7.3
+redis,CVE-2021-32761,Integer overflow in STRALGO LCS command,6.8
+elasticsearch,CVE-2021-22145,Incorrect permission check in Watcher,7.5
+mongodb,CVE-2021-20330,Improper input validation in MongoDB Server,6.5
+ftp,CVE-2021-25296,Buffer overflow in ProFTPD,7.5
+smtp,CVE-2021-34646,Incorrect validation in Exim,9.8
+samba,CVE-2021-44142,Remote code execution in Samba,9.9
+smb,CVE-2021-44142,Remote code execution in Samba,9.9
+rdp,CVE-2021-34527,Remote Desktop Services Remote Code Execution Vulnerability,9.8
+vnc,CVE-2021-3534,Buffer overflow in RealVNC,9.8
+telnet,CVE-2021-3156,Heap-based buffer overflow in sudo,7.0
+

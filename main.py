@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+	#!/usr/bin/env python3
 """
 Advanced Security Scanner and Risk Assessment Tool
 Main entry point for the security scanning application.
@@ -47,7 +47,7 @@ class SecurityScanner:
             sudo: Use sudo for privileged scans
         """
         self.nmap_runner = NmapRunner(timeout=timeout, sudo=sudo)
-        self.risk_engine = RiskEngine(cve_db_path=cve_db_path)
+        self.risk_engine = RiskEngine(cve_database_path=cve_db_path)
         self.report_generator = ReportGenerator(output_dir=output_dir)
     
     def scan_and_assess(
